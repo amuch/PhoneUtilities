@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Phone Utilities</string>
+    <string name="menu_string">Phone Utilities</string>
+
+    <string name="speedometer_string">Speedometer</string>
+    <string name="speedometer_button">Start</string>
+
+    <string name="flashlight_string">Flashlight</string>
+    <string name="flashlight_button">Start</string>
+    <string name="flashlight_header">Flashlight</string>
+    <string name="flashlight_on_button">ON</string>
+    <string name="flashlight_off_button">OFF</string>
+
+    <string name="flashlightTest_string">Flashlight Test</string>
+    <string name="flashlightTest_button">Start</string>
+    <string name="flashlightTest_header">Flashlight</string>
+    <string name="flashlightTest_on_button">ON</string>
+    <string name="flashlightTest_off_button">OFF</string>
+
+    <string name="compass_string">Compass</string>
+    <string name="compass_button">Start</string>
+
+    <string name="reset_odometer_button">Reset</string>
+    <string name="reset_max_speed_button">Reset</string>
+    <string name="stop_speedometer_service_button">Stop</string>
+</resources>

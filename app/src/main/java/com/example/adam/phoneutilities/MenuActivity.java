@@ -28,6 +28,10 @@ public class MenuActivity extends Activity implements View.OnClickListener{
         // Bind the compass's button.
         Button compassButton = (Button) findViewById(R.id.compassButton);
         compassButton.setOnClickListener(this);
+
+        // Bind the level gauge's button.
+        Button levelGaugeButton = (Button) findViewById(R.id.levelGaugeButton);
+        levelGaugeButton.setOnClickListener(this);
     }
 
     @Override
@@ -52,6 +56,11 @@ public class MenuActivity extends Activity implements View.OnClickListener{
                 break;
 
             case R.id.compassButton:
+                break;
+
+            case R.id.levelGaugeButton:
+                intent = new Intent(this, LevelGaugeActivity.class);
+                startActivity(intent);
                 break;
 
             default:

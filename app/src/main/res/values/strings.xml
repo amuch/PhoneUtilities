@@ -17,6 +17,9 @@
     <string name="flashlightTest_on_button">ON</string>
     <string name="flashlightTest_off_button">OFF</string>
 
+    <string name="levelGauge_string">Level Gauge</string>
+    <string name="levelGauge_button">Start</string>
+
     <string name="compass_string">Compass</string>
     <string name="compass_button">Start</string>
 

@@ -36,16 +36,19 @@
             android:name=".SpeedometerService"
             android:enabled="true"
             android:exported="false"
-            android:process=":SpeedometerProcess"/>
-
+            android:process=":SpeedometerProcess" />
         <service
             android:name=".FlashlightService"
             android:enabled="true"
             android:exported="false"
             android:process=":FlashlightProcess" />
 
-        <activity android:name=".FlashlightTestActivity"
-                  android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FlashlightTestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LevelGaugeActivity"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>
